@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class Main {
@@ -19,16 +17,6 @@ public class Main {
 		answer.addAll(lists[0]);
 	}
 
-	public static void sort() {
-		Collections.sort(answer, new Comparator() {
-			public int compare(Object o1, Object o2) {
-				long n1 = Long.parseLong((String) o1);
-				long n2 = Long.parseLong((String) o2);
-				return Long.compare(n1, n2);
-			}
-		});
-	}
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
@@ -36,16 +24,15 @@ public class Main {
 		initList();
 
 		for (int i = 1; i < lists.length; i++) {
-			for (String str : lists[i - 1]) {
-				int n = str.charAt(0) - '0';
-				for (int j = 9; j > n; j--) {
+			for (int j = 1; j < 10; j++) {
+				for (String str : lists[i - 1]) {
+					if (str.charAt(0) - '0' >= j)
+						break;
 					lists[i].add(j + str);
 				}
 			}
 			answer.addAll(lists[i]);
 		}
-
-		sort();
 
 		if (answer.size() > N)
 			System.out.println(answer.get(N));
