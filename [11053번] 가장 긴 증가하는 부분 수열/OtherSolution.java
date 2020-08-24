@@ -6,23 +6,22 @@ class Main {
 	public static void main(String[] args) {
 		int N = sc.nextInt(), max = 0;
 
-		int[] arr = new int[N];
-		for (int i = 0; i < N; i++)
-			arr[i] = sc.nextInt();
-
-		int[] cases = new int[N];
-
+		int num[] = new int[N];
 		for (int i = 0; i < N; i++) {
-			int subMax = 0;
-			for (int j = 0; j < i; j++) {
-				if (arr[i] > arr[j]) {
-					subMax = Math.max(cases[j], subMax);
-				}
-			}
-			cases[i] += subMax;
-			max = Math.max(max, cases[i]);
+			num[i] = sc.nextInt();
 		}
-		
+
+		int dp[] = new int[N];
+		for (int i = 1; i < N; i++) {
+			int subMax = -1;
+			for (int j = 0; j < i; j++) {
+				if (num[i] > num[j])
+					subMax = Math.max(subMax, dp[j]);
+			}
+			dp[i] = subMax + 1;
+			max = Math.max(dp[i], max);
+		}
+
 		System.out.println(max + 1);
 	}
 }
