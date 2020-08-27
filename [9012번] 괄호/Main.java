@@ -3,14 +3,13 @@ import java.util.Scanner;
 class Main {
 	static Scanner sc = new Scanner(System.in);
 
-	public static boolean isVPS(String string) {
+	public static boolean isVPS(String brackets) {
 		int cnt = 0;
-		for (char ch : string.toCharArray()) {
-			if (ch == '(') {
+		for (char bracket : brackets.toCharArray()) {
+			if (bracket == '(')
 				cnt++;
-			} else if (--cnt < 0) {
+			else if (--cnt < 0)
 				return false;
-			}
 		}
 		return cnt == 0;
 	}
@@ -19,11 +18,10 @@ class Main {
 		int testcase = sc.nextInt();
 
 		while (testcase-- > 0) {
-			if (isVPS(sc.next())) {
+			if (isVPS(sc.next()))
 				System.out.println("YES");
-			} else {
+			else
 				System.out.println("NO");
-			}
 		}
 	}
 }
