@@ -7,5 +7,7 @@
 |WrongMain|나|X|내가 푼 그냥 오답|
 |OtherMain|남|O|다른 사람의 풀이를 바탕으로 리팩토링된 내 Main.java|
 
-# 대표 문제
+# DP
 * [9012번] 괄호
+
+# DFS/BFS
