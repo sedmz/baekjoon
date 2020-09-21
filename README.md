@@ -13,6 +13,7 @@
 * [1946번] 신입 사원
 
 # DFS/BFS
+* [[10974번] 모든 순열](https://github.com/sedmz/baekjoon/tree/master/%5B10974번%5D%20모든%20순열)
 
 # 정렬
 * **[1931번] 회의실 배정**
