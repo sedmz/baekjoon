@@ -17,3 +17,6 @@
 
 # 정렬
 * **[1931번] 회의실 배정**
+
+# 재귀
+* [[14891번] 톱니바퀴](https://github.com/sedmz/baekjoon/tree/master/%5B14891번%5D%20톱니바퀴)
