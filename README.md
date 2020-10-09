@@ -15,6 +15,7 @@
 
 # DFS/BFS
 * [[10974번] 모든 순열](https://github.com/sedmz/baekjoon/tree/master/%5B10974번%5D%20모든%20순열)
+* [[1759번] 암호 만들기](https://github.com/sedmz/baekjoon/tree/master/%5B1759번%5D%20암호%20만들기)
 
 # 정렬
 * [[1931번] 회의실 배정](https://github.com/sedmz/baekjoon/tree/master/%5B1931번%5D%20회의실배정) ⭐️⭐️
