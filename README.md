@@ -11,6 +11,7 @@
 * [9012번] 괄호
 * [1929번] 소수 구하기
 * [1946번] 신입 사원
+* [[10884번] 쉬운 계단 수](https://github.com/sedmz/baekjoon/blob/master/%5B10844번%5D%20쉬운%20계단%20수/readme.md)⭐️
 
 # DFS/BFS
 * [[10974번] 모든 순열](https://github.com/sedmz/baekjoon/tree/master/%5B10974번%5D%20모든%20순열)
