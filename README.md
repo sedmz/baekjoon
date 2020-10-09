@@ -17,7 +17,7 @@
 * [[10974번] 모든 순열](https://github.com/sedmz/baekjoon/tree/master/%5B10974번%5D%20모든%20순열)
 
 # 정렬
-* **[1931번] 회의실 배정**
+* [[1931번] 회의실 배정](https://github.com/sedmz/baekjoon/tree/master/%5B1931번%5D%20회의실배정) ⭐️⭐️
 
 # 재귀
 * [[14891번] 톱니바퀴](https://github.com/sedmz/baekjoon/tree/master/%5B14891번%5D%20톱니바퀴)
