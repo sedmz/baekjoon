@@ -24,4 +24,4 @@
 * [[14891번] 톱니바퀴](https://github.com/sedmz/baekjoon/tree/master/%5B14891번%5D%20톱니바퀴)
 
 # 다익스트라
-* [[1753번] 최단경로](https://github.com/sedmz/baekjoon/blob/master/%5B1753번%5D%20최단경로/MySolution.java) ⭐️
+* [[1753번] 최단경로](https://github.com/sedmz/baekjoon/tree/master/%5B1753번%5D%20최단경로) ⭐️
